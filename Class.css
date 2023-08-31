@@ -2,6 +2,10 @@
     font-family: AnarchyFont;
     src: url(HeyNovember-eZZ2l.ttf);
 }
+@font-face {
+    font-family: RetroFont;
+    src: url(VT323-Regular.ttf);
+}
 
 body {
     margin:0;
@@ -62,5 +66,36 @@ a:active {
 .article {
     font-size: 30px;
     text-align: center;
+    font-family: RetroFont;
 
+}
+
+.posts {
+    font-size: 18px;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    font-family: RetroFont;
+    padding-left:40%;
+}
+.abme {
+    font-size: 18px;
+    font-family: RetroFont;
+}
+.abme > h2 {
+    text-align: center;
+    font-family: AnarchyFont;
+}
+.contact {
+    text-align: center;
+    font-family: RetroFont;
+    font-size: 30px;
+}
+.portf {
+    padding-left: 20%;
+    font-family: RetroFont;
+    font-size: 18px;
+}
+.tags {
+    font-family: RetroFont;
+    text-align: center;
 }
