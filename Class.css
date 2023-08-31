@@ -1,12 +1,28 @@
-h1, h2 {
-    text-align: center;
+@font-face {
+    font-family: AnarchyFont;
+    src: url(HeyNovember-eZZ2l.ttf);
 }
 
 body {
-    font-family: AnarchyFont;
-    min-width: 100%;
-    
+    margin:0;
 }
+
+main {
+    background-image:URL("BGBaner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 68px;
+    background-size:cover;
+    padding-top: 68px;
+    height:1000px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: AnarchyFont;
+}
+
 
 a:link {
     color: inherit;
@@ -28,27 +44,23 @@ a:active {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: AnarchyFont;
-    src: url(HeyNovember-eZZ2l.ttf);
-}
-
 .links {
     background: rgb(22, 22, 22);
     color: red;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    position:fixed;
     padding-left: 5%;
     padding-right: 5%;
-    position:sticky;
-    top: 0px;
-    
+    justify-content:space-between;
+    font-family: AnarchyFont;
+    font-size: 22px;
+    width:100%;
+    box-sizing: border-box;
+
 }
-.articles {
-    background-image:URL("BGBaner.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    height: 10000px;
+.article {
+    font-size: 30px;
+    text-align: center;
+
 }
