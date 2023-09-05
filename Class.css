@@ -5,6 +5,7 @@
 @font-face {
     font-family: RetroFont;
     src: url(VT323-Regular.ttf);
+    
 }
 
 body {
@@ -12,13 +13,14 @@ body {
 }
 
 main {
-    background-image:URL("BGBaner.png");
+    background-image:URL("Banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 68px;
     background-size:cover;
     padding-top: 68px;
     height:1000px;
+    color:whitesmoke;
 }
 
 h1 {
