@@ -8,18 +8,18 @@
     
 }
 
+html{
+    height: 100%;
+}
+
 body {
     margin:0;
+    height:100%;
+    background-color:black;
 }
 
 main {
-    background-image:URL("Banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 68px;
-    background-size:cover;
     padding-top: 68px;
-    height:1000px;
     color:whitesmoke;
 }
 
@@ -48,6 +48,17 @@ a:hover {
 a:active {
     color: inherit;
     text-decoration: none;
+}
+
+.bg {
+    background-image:URL("Banner.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-position-y: 68px;
+    background-size: calc(100%);
+    min-height: 100%;
+    padding: 68px;
+    
 }
 
 .links {
@@ -96,8 +107,14 @@ a:active {
     padding-left: 20%;
     font-family: RetroFont;
     font-size: 18px;
+    max-height: 100%;
 }
 .tags {
     font-family: RetroFont;
     text-align: center;
+}
+
+.welcome {
+    font-family: RetroFont;
+    padding: 0 15% 0 15%;
 }
